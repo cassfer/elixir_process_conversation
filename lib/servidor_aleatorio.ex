@@ -13,8 +13,8 @@ defmodule ElixirTeste.ServidorAleatorio do
 		{:ok, %{}}
 	end
 
-	def handle_cast(:escreve, _) do
-		ElixirTeste.EscreveNumeroAleatorio.escreve
+	def handle_cast(:verifica_site, _) do
+		ElixirTeste.VerificaDisponibilidadeSite.verifica_primesoftware
 		{:noreply, %{}}
 	end
 end
