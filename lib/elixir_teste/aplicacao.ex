@@ -3,7 +3,7 @@ defmodule ElixirTeste.Aplicacao do
 
   def start(_type, _args) do
     children = [
-      ElixirTeste.ServidorAleatorio
+      ElixirTeste.ServidorAleatorio,
       ElixirTeste.Agendador
     ]
 
